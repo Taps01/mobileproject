@@ -1,0 +1,21 @@
+<ion-content class="ion-padding">
+  <div class="ion-item" id="logo"></div>
+  <div class="info grid-container" *ngIf="info == false">
+    <div class="ion-padding question"> {{ activeQuestion.question }} </div>
+    <div class="ion-padding questionCounter" *ngIf="info == false"> {{ questionCounter }} / {{ nbrOfQuestions }}</div>
+    <div class="ion-padding valueCounter"> {{ valueCounter }} €</div>
+    <ion-list class="ion-padding grid-list">
+      <ion-item class="options" *ngFor="let option of activeQuestion?.options; let i=index">    
+        <ion-label>{{ option.name }}</ion-label>
+        <ion-checkbox class="checkbox" (click)="checkOption(i, activeQuestion, $event)"></ion-checkbox>
+      </ion-item>
+    </ion-list>
+    <ion-button class="nextQuestion" size="large" (click)="setQuestion()" >Seuraava</ion-button>
+  </div>
+  <div class="info" *ngIf="info == true">
+    <p id="price">Hinta-arvio sovellukselle on {{ valueCounter }} €.</p>
+    <p>Tämä hinta-arvio on suuntaa antava ja suosittelemme olemaan yhteydessä asiantuntijoihimme.</p>
+    <p>Heidän kanssaan voit katsoa sovelluskehityksen todelliset kustannukset ja hioa ajatustasi entistä pidemmälle.</p>
+    <ion-button class="nextQuestion" size="large" (click)="ngOnInit()" >Kokeile uudestaan</ion-button>
+  </div>
+</ion-content>

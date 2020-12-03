@@ -1,0 +1,71 @@
+  [
+    {
+        "question":"Millaisen sovelluksen tarvitset?", 
+        "options":[ 
+            {"name":"Apuohjelma","value": [1000]}, 
+            {"name":"Sosiaalinen sovellus","value":[10000]}, 
+            {"name":"IoT-sovellus","value":[12000]},
+            {"name":"Viihdesovellus","value":[5000]},
+            {"name":"Verkkokauppa","value":[1000]},
+            {"name":"Toiminnanohjausjärjestelmä","value":[15000]},
+            {"name":"Lääkelaiteohjelmisto","value":[15000]},
+            {"name":"Jokin muu","value":[0]}] 
+    },  
+    {
+        "question":"Kenelle sovellus on tarkoitettu?", 
+        "options":[ 
+            {"name":"Omalle yritykselleni","value": 0}, 
+            {"name":"Muille yrityksille","value": 0},
+            {"name":"Kuluttajille","value": 0}] 
+    },  
+    {
+        "question":"Miltä sovelluksen tulisi näyttää?", 
+        "options":[ 
+            {"name":"Prototyyppi riittää","value":5000}, 
+            {"name":"Hyvältä","value":10000}, 
+            {"name":"Vain paras kelpaa","value":15000}] 
+    },  
+    {
+        "question":"Pitääkö sovellukseen kirjautua? ", 
+        "options":[ 
+            {"name":"Sähköposti","value":1000}, 
+            {"name":"Sosiaalisen median kanavat","value":1000},
+            {"name":"Molemmat","value":2000},
+            {"name":"Ei kirjautumista","value":0}] 
+    },  
+    {
+        "question":"Kuinka aioit tehdä sovelluksella rahaa?", 
+        "options":[ 
+            {"name":"Maksullinen, sisältää ostoja","value":200},
+            {"name":"Maksu tapahtuu muualla","value":100},
+            {"name":"Sovellus on ilmainen","value":0}] 
+    },  
+    {
+        "question":"Mitä alustoja sovelluksen tulisi tukea?", 
+        "options":[ 
+            {"name":"Puhelimet","value":0}, 
+            {"name":"Tietokoneiden selaimet","value":2000},
+            {"name":"Molemmat","value":2000}] 
+    },  
+    {
+        "question":"Mitä ominaisuuksia sovelluksen tulisi lisäksi sisältää?", 
+        "options":[ 
+            {"name":"Tiedon syöttäminen","value":1000}, 
+            {"name":"Karttatoiminnot","value":1000},
+            {"name":"Muistutukset","value":100},
+            {"name":"Notifikaatiot","value":200},
+            {"name":"Kuvien hallinta","value":500},
+            {"name":"Tiedostojen hallinta","value":500},
+            {"name":"Viestintä","value":1000},
+            {"name":"Datan visualisointi","value":100},
+            {"name":"Raportointi","value":100},
+            {"name":"Toiminnanohjaus","value":100},
+            {"name":"Bluetooth","value":1000},
+            {"name":"NFC","value":1000}] 
+    }
+]
+
+
+
+
+ 
